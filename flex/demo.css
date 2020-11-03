@@ -1,0 +1,40 @@
+.pumpkin-base {
+  border: black solid 1px;
+  height: 100px;
+  width: 90px;
+  border-radius: 30px;
+  background-color: orange;
+  color: black;
+}
+
+.pumpkin-stem {
+  border: black solid 1px;
+  background-color: green;
+  width: 10px;
+  height: 20px;
+}
+
+.pumpkin-wrapper {
+  border: dotted white 2px;
+  padding: 5px;
+}
+
+.pumpkins-wrapper {
+  padding: 20px;
+  border: grey dotted 1px;
+  background-color: black;
+}
+
+.pumpkins-wrapper-stack {
+  padding: 20px;
+  border: grey dotted 1px;
+  background-color: black;
+}
+
+.pumpkins-row {
+  display: block;
+}
+
+.pumpkins-stack {
+  display: block;
+}

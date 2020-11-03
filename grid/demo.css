@@ -1,0 +1,83 @@
+.pumpkin-base {
+  border: black solid 1px;
+  height: 100px;
+  width: 90px;
+  border-radius: 30px;
+  background-color: orange;
+  color: #000000;
+}
+
+.pumpkin-stem {
+  border: black solid 1px;
+  background-color: green;
+  width: 10px;
+  height: 20px;
+}
+
+.pumpkin-wrapper {
+  border: dotted white 2px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pumpkins-wrapper {
+  padding: 20px;
+  border: grey dotted 1px;
+  background-color: black;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.pumpkins-row {
+  display: flex;
+}
+
+.pumpkins-stack {
+  display: flex;
+  flex-direction: column;
+}
+
+.eye {
+  height: 20px;
+  width: 20px;
+  background-color: yellow;
+  border: solid 2px darkorange;
+  border-radius: 10px;
+}
+.eye2 {
+  height: 20px;
+  width: 20px;
+  background-color: yellow;
+  border: solid 2px darkorange;
+  border-radius: 10px;
+}
+
+.happy-mouth {
+  height: 20px;
+  width: 70px;
+  background-color: yellow;
+  border: solid 2px darkorange;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.crazy-mouth {
+  height: 20px;
+  width: 70px;
+  background-color: yellow;
+  border: solid 2px darkorange;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.sad-mouth {
+  height: 15px;
+  width: 70px;
+  background-color: yellow;
+  border: solid 2px darkorange;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}

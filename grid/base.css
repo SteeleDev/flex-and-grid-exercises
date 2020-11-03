@@ -1,0 +1,42 @@
+body {
+  font-family: Arial;
+  color: white;
+  background-color: darkorchid;
+}
+
+p {
+  padding: 0 20px;
+  font-weight: 600;
+}
+
+.work-area {
+  padding: 20px;
+  border: grey dotted 1px;
+  background-color: black;
+}
+
+.base-components-wrapper {
+  padding: 20px;
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 50px auto;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.base-components-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  border-bottom: solid 1px white;
+  padding-bottom: 10px;
+}
+
+.display-heading {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
